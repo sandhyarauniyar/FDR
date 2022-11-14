@@ -1,0 +1,42 @@
+.fdr{
+    display: flex;
+    flex-direction: row;
+}
+
+.fdr-1{
+    width:50%;
+}
+
+.fdr-2{
+    width:50%;
+}
+
+.banner-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.heading{
+    text-align: center;
+    padding: 12%;
+}
+
+.title{
+    font-size: 50px;
+}
+
+.subtitle{
+    font-size: 22px;
+    color: #808080b3;
+    margin-top: -18px !important;
+}
+
+@media (min-width: 300px) and (max-width: 700px) {
+    .fdr-2{
+        display:none;
+    }
+
+    .fdr-1{
+        width:100%;
+    }
+}

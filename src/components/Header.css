@@ -1,0 +1,25 @@
+.header{
+    background-color: orange;
+    height: 75px;
+    box-shadow: 0px -2px 9px 4px #d35702e3;
+    z-index: 10000;
+    position: relative;
+}
+
+.login-btn{
+    position: absolute;
+    right: 40px;
+    height: 40px;
+    top: 18px;
+    width: 74px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.logo{
+    height: 47px;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+}
